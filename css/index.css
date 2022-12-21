@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111;
+    color: #fff;
+}
+.crud{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.head p{
+    margin:20px 0;
+    font-weight: lighter;
+    color: #aaa;
+}
+input{
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: 0.5s;
+}
+input:focus{
+    background-color: #000;
+    transform: scale(1.1);
+}
+.inputs .price input{
+  width: 20%;
+}
+.inputs .price  small{
+    background-color: rgba(222, 73, 73, 0.836);
+    padding: 8px 20px;
+}
+.inputs .price  small::before{
+    content: 'Total:  ';
+}
+input[type="button"]
+{
+    cursor: pointer;
+    background-color: #555;
+    border-radius: 10px;
+}
+input[type="button"]:hover{
+    background: #777;
+    letter-spacing: 2px;
+}
+.outputs .btnSearch input{
+    width: 48%;
+   float: left;
+   margin-left: 20px;
+   margin-bottom: 20px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+table th{
+    text-transform: uppercase;
+}
+table button{
+    padding: 6px 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    background-color:rgba(97, 97, 169, 0.655);
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+}
+
+
+
+
